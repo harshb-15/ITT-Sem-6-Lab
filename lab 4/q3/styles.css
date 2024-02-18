@@ -1,0 +1,35 @@
+.box {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+}
+#p1 {
+    background-color: gray;
+    z-index: 1;
+    
+}
+#p2 {
+    background-color: aqua;
+    z-index: 2;
+    margin-left: 150px;
+}
+#p3 {
+    background-color:antiquewhite;
+    z-index: 3;
+    margin-left: 300px;
+}
+/* .box:hover {
+    z-index: 4;
+} */
+#p1:hover {
+    z-index: 4;
+    scale: 1.2;
+}
+#p2:hover {
+    z-index: 4;
+    scale: 1.2;
+}
+#p3:hover {
+    z-index: 4;
+    scale: 1.2;
+}
